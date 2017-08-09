@@ -1,0 +1,388 @@
+/* standard */
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(SFFlorencesans.ttf);
+}
+.price {
+  color: #FF4D00;
+  text-align: left;
+  font-weight: bold;
+}
+.fa-plus{
+  float: right;
+  color: grey;
+  margin-top: -5px;
+    font-size: 1.7vw;
+}
+.fa-play-circle{
+  padding-top:15%;
+  color:#CD201F;
+}
+.fa-star{
+  color:#cccc00;
+}
+.fa-shopping-cart{
+  color: #FF4D00;
+}
+
+/* mobile */
+@media(min-width:576px){
+
+}
+
+/* tablet */
+@media(min-width:992px){
+  h4 {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 1.2vw;
+  }
+  p {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 1.1vw;
+  }
+  .detail-info {
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-size: 0.8vw;
+  }
+  .container-fluid{
+    padding-right:300px;
+    padding-left:100px;
+  }
+  .detail-view{
+    padding-left:0;
+    float:right;
+    width:300px;
+    margin-right:-300px;
+  }
+  .menu{
+    padding-left:0;
+    float:left;
+    width:100px;
+    margin-left:-100px;
+  }
+  #detail-banner {
+    font-weight: bold;
+    font-family: myFirstFont;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background: rgba(255, 77, 0, 0.85);
+    display:block;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .wrap-content {
+    float: left;
+  }
+}
+
+/* Desktop*/
+@media(min-width: 1200px){
+  h4 {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 1.0vw;
+  }
+  p {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.9vw;
+  }
+  .detail-info {
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-size: 0.7vw;
+  }
+  .grid-item{
+    width: 33.3%;
+  }
+  /* Container */
+  .container-fluid{
+    padding-right:300px;
+    padding-left:100px;
+  }
+  .detail-view{
+    padding-left:0;
+    float:right;
+    width:300px;
+    margin-right:-300px;
+  }
+  .menu{
+    padding-left:0;
+    float:left;
+    width:100px;
+    margin-left:-100px;
+  }
+  #detail-banner {
+    font-weight: bold;
+    font-family: myFirstFont;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background: rgba(255, 77, 0, 0.85);
+    display:block;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+@media(min-width: 1366px){
+  h4 {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.9vw;
+  }
+  p {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.8vw;
+  }
+  .detail-info {
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-size: 0.7vw;
+  }
+  .grid-item{
+    width: 25%;
+  }
+  /* Container */
+  .container-fluid{
+    padding-right:350px;
+    padding-left:100px;
+  }
+  .detail-view{
+    padding-left:0;
+    float:right;
+    width:350px;
+    margin-right:-350px;
+  }
+  .menu{
+    padding-left:0;
+    float:left;
+    width:100px;
+    margin-left:-100px;
+  }
+}
+
+@media(min-width: 1600px){
+  h4 {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.8vw;
+  }
+  p {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.7vw;
+  }
+  .detail-info {
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-size: 0.6vw;
+  }
+  .grid-item{
+    width: 20%;
+  }
+  /* Container */
+  .container-fluid{
+    padding-right:350px;
+    padding-left:100px;
+  }
+  .detail-view{
+    padding-left:0;
+    float:right;
+    width:350px;
+    margin-right:-350px;
+  }
+  .menu{
+    padding-left:0;
+    float:left;
+    width:100px;
+    margin-left:-100px;
+  }
+}
+@media(min-width: 1920px){
+  h4 {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.8vw;
+  }
+  p {
+    font-family: myFirstFont;
+    color: #4D4D4D;
+    font-size: 0.7vw;
+  }
+  .grid-item{
+    width: 16.66666666666667%;
+  }
+  /* Container */
+  .container-fluid{
+    padding-right:350px;
+    padding-left:100px;
+  }
+  .detail-view{
+    padding-left:0;
+    float:right;
+    width:350px;
+    margin-right:-350px;
+  }
+  .menu{
+    padding-left:0;
+    float:left;
+    width:100px;
+    margin-left:-100px;
+  }
+}
+
+
+
+/* bootstrap */
+.thumbnail {
+  border: none;
+  padding:0px;
+}
+
+.thumbnail i {
+  top: 5%;
+  left: 85%;
+  position: absolute;
+}
+
+.thumbnail:hover .icons{display:block;}
+
+/* custom classes */
+.no-padding {
+  padding:0;
+}
+.no-margin{
+  margin:0;
+}
+.grid-content{
+  padding-right: 8px;
+  padding-left: 20px;
+}
+.wrap-content{
+  float:left;
+  border-top: 1px solid #ccc;
+}
+.grid-item{
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.icons{
+  display:none;
+}
+
+.detail-img{
+  position: relative;
+  font-size: 0.5vw;
+}
+.detail-img img{
+  width: 100%; height: auto;
+}
+.details-left{
+  color:grey;
+}
+.cart-row{
+  margin:0;
+  padding-top: 10px;
+  white-space: nowrap;
+  font-size: 0.8vw;
+}
+.viewed-images{
+  font-family: myFirstFont;
+  font-weight: bold;
+  white-space: nowrap;
+  /*overflow: hidden;*/
+  font-size: 14px;
+  color: darkred;
+  margin:0;
+}
+.viewed-images img{
+  width: 100%; height: auto;
+}
+.viewed-images > div {
+  padding: 0 !important;
+}
+.input-circle{
+  width: 25px;
+  height: 20px;
+  /* background-color: #000; */
+  border: solid 1px #000;
+  border-radius: 40%;
+  text-align: center;
+}
+
+
+/* banner */
+
+#detail-icons {
+  width:20%;
+  color: darkred;
+  white-space: nowrap;
+}
+#details-play{
+  vertical-align: middle;
+  color:darkred;
+  padding:0;
+}
+#details-leaf{
+  color:green;
+}
+
+#banner-star{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+}
+#banner-search{
+  position: absolute;
+  top: 5%;
+  right:5%;
+  color: white;
+}
+#banner-right{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  color: white;
+}
+
+#banner-viewed{
+  background-color: #f7e3da;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#row-viewed{
+  font-family: myFirstFont;
+  font-weight:bold;
+  padding-top: 10px;
+  margin:0;
+  font-size: 14px;
+  color: darkred;
+}
+/* hides input number arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
